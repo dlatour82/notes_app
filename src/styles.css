@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #74d9eb, #4b6af8);
+}
+
+.note-input {
+  margin-bottom: 20px;
+}
+
+.note-input input,
+.note-input textarea {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.notes-list .notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.note-summary {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 2px 2px 6px #aaa;
+}
+
+.note-summary h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.note-summary button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.note-summary button:hover {
+  background: #c0392b;
+}
+
+.note {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 2px 2px 6px #aaa;
+}
+
+.note h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.note button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.note button:hover {
+  background: #c0392b;
+}
+
+.footer {
+  display: block;
+  background: #333333;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: auto 0;
+}
+
+footer a {
+  color: rgb(142, 222, 248);
+}
